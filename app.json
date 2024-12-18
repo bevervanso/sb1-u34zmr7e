@@ -1,0 +1,19 @@
+{
+  "name": "instagram-downloader",
+  "description": "Instagram Video Downloader",
+  "keywords": ["node", "express", "instagram"],
+  "website": "",
+  "repository": "",
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment for Node.js application",
+      "value": "production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic-xxs"
+    }
+  }
+}

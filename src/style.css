@@ -1,0 +1,142 @@
+:root {
+  --gradient-start: #4158D0;
+  --gradient-middle: #C850C0;
+  --gradient-end: #FFCC70;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(45deg, var(--gradient-start), var(--gradient-middle), var(--gradient-end));
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.main-content {
+  color: white;
+  margin-top: 3rem;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.paste-btn {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.download-btn {
+  background: #00CC44;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background: #00AA44;
+}
+
+.processing {
+  color: white;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+
+.error {
+  color: #ff4444;
+  background: rgba(255, 68, 68, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.success-result {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #333;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.thumbnail {
+  max-width: 300px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #00CC44;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.download-link:hover {
+  background: #00AA44;
+}
